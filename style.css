@@ -6,6 +6,8 @@ body{
   position: relative;
   overflow-x: hidden;
   height: 100%;
+  touch-action: none;
+  -ms-touch-action: none;
 }
 .box{
   align-self: center;
@@ -46,7 +48,6 @@ body{
 {
   .h-2{
     font-size: 40vw;
-    -webkit-text-stroke-width: .6px;
   }
 }
 .cartoon-img{
