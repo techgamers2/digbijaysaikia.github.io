@@ -6,7 +6,7 @@ body{
   position: relative;
   overflow-x: hidden;
   height: 100%;
-  touch-action: none;
+  touch-action: pan-y;
   -ms-touch-action: none;
 }
 .box{
