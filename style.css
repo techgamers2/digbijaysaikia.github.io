@@ -100,7 +100,7 @@ body{
     width: 50%;
   }
   .profile-div{
-    margin-top: 0%;
+    margin-top: 50%;
   }
 }
 .h-4{
@@ -127,6 +127,7 @@ ul{
   font-size: 1.2vw;
   margin: 0%;
   padding: 0%;
+  margin-bottom: 30%;
 }
 @media only screen and (max-width: 720px)
 {
@@ -136,4 +137,53 @@ ul{
 }
 .social{
     text-align: center;
+}
+
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: fixed;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #00a6ff;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
