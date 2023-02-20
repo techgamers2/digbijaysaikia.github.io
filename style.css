@@ -18,6 +18,12 @@ body{
   font-family: akira;
   color: #B6E6FF;
 }
+@media only screen and (max-width: 720px)
+{
+  .h-1{
+    font-size: 30vw;
+  }
+}
 .box2{
   position: relative;
   left: 0;
@@ -30,11 +36,18 @@ body{
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #B6E6FF;
   fill: none;
-  opacity: 90%;
+  opacity: 80%;
   color: transparent;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   overflow: none;
+}
+@media only screen and (max-width: 720px)
+{
+  .h-2{
+    font-size: 40vw;
+    -webkit-text-stroke-width: .6px;
+  }
 }
 .cartoon-img{
   position: absolute;
@@ -43,18 +56,34 @@ body{
   width: 40vw;
   transform: translate(-50%, -50%);
 }
+@media only screen and (max-width: 720px)
+{
+  .cartoon-img{
+    top: 30vw;
+    width: 120vw;
+  }
+}
 .h-3{
   font-size: 2vw;
   font-family: akira;
   color: #959595;
 }
 .box3{
-  padding-top: 20%;
+  margin-top: 20%;
   position: relative;
   display: block;
 }
+@media only screen and (max-width: 720px)
+{
+  .h-3{
+    font-size: 4vw;
+  }
+  .box3{
+    margin-top: 85%;
+  }
+}
 .profile-img{
-  width: 300px;
+  width: 250px;
   border-radius: 100%;
 }
 .profile-div{
