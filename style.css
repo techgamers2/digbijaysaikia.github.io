@@ -6,14 +6,14 @@ body{
   position: relative;
   overflow-x: hidden;
   height: 100%;
-  touch-action: pan-y;
-  -ms-touch-action: none;
 }
 .box{
   align-self: center;
   margin-top: 2vw;
   width: 100%;
   height: 80%;
+  left: 50%;
+  right: 50%;
 }
 .h-1{
   font-size: 20vw;
@@ -65,7 +65,12 @@ body{
   }
 }
 .h-3{
-  font-size: 2vw;
+  font-size: 3vw;
+  font-family: akira;
+  color: #959595;
+}
+.iam{
+  font-size: 3vw;
   font-family: akira;
   color: #959595;
 }
@@ -73,11 +78,16 @@ body{
   margin-top: 20%;
   position: relative;
   display: block;
+  left: 0%;
+  right: 0%;
 }
 @media only screen and (max-width: 720px)
 {
   .h-3{
     font-size: 4vw;
+  }
+  .iam{
+    font-size: 8vw;
   }
   .box3{
     margin-top: 85%;

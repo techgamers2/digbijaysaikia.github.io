@@ -19,9 +19,27 @@
         <img src="img/cartoon.png" class="cartoon-img">
       </div>
     </div>
-    <div class="box3" align="center">
-      <span class="h-3">Developer ● Designer ● Editor </span>
+    <div class="box3">
+      <h2 id="iam" align="center" class="h-3">
+        <span class="iam" style="display: initial;">Developer</span>
+        <span class="iam" style="display: none;">Youtuber</span>
+        <span class="iam" style="display: none;">Designer</span>
+        <span class="iam" style="display: none;">Editor</span>
+      </h2>
     </div>
+    <script type="text/javascript">
+      var text=document.getElementById('iam');
+      var word=text.getElementsByTagName('span');
+
+      var i=0;
+      function rotator()
+      {
+        word[i].style.display='none';
+        i=(i+1) % word.length;
+        word[i].style.display='initial';
+      }
+      setInterval(rotator, 1000);
+    </script>
     <div class="profile-div" align="center">
       <img src="img/profile.jpg" class="profile-img">
     </div>
