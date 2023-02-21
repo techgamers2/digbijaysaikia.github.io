@@ -2,12 +2,16 @@
   font-family: akira;
   src: url(font/akira.otf);
 }
+html{
+  margin: 0%;
+}
 body{
   position: relative;
   height: 100%;
   touch-action: pan-y;
   overflow-x: hidden;
   margin: 0%;
+  padding: 0%;
 }
 .h-1{
   font-size: 20vw;
@@ -229,6 +233,7 @@ footer{
   margin-bottom: 0%;
   margin: 0%;
   padding: 0%;
+  transform: translate(0%, 1%);
 }
 .t-div{
   margin: 0%;
