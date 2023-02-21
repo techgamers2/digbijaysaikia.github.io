@@ -13,8 +13,13 @@
         <span class="h-1">DIKU</span>
       </div>
       <div align="center" class="box2">
-        <span class="h-2">2023</span>
+        <span id="year" class="h-2"></span>
       </div>
+      <script>
+        const d = new Date();
+        let year = d.getFullYear();
+        document.getElementById("year").innerHTML = year;
+        </script>
       <div align="center" class="box2">
         <img src="img/cartoon.png" class="cartoon-img">
       </div>
