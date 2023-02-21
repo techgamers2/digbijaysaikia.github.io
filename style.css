@@ -100,7 +100,7 @@ body{
   border-radius: 100%;
 }
 .profile-div{
-  padding-top: 10%;
+  padding-top: 8%;
 }
 @media only screen and (max-width: 720px)
 {
@@ -124,17 +124,21 @@ body{
     font-size: 20px;
   }
 }
-
+a{
+  text-decoration: none;
+}
 ul{
   display: inline-block; 
 	text-align: left; 
   list-style-type: none;
   font-family: arial;
   letter-spacing: 0.15em;
-  color: #959595;
   font-size: 1.2vw;
   margin: 0%;
   padding: 0%;
+}
+li{
+  color: #959595;
 }
 @media only screen and (max-width: 720px)
 {
@@ -216,12 +220,13 @@ ul{
   color: #959595;
   padding: 0%;
   margin: 10px;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 @media only screen and (max-width: 720px)
 {
   .h-5{
     font-size: 20px;
+    margin-top: 20%;
   }
 }
 footer{
@@ -233,7 +238,7 @@ footer{
   margin-bottom: 0%;
   margin: 0%;
   padding: 0%;
-  transform: translate(0%, 1%);
+  transform: translate(0%, 20%);
 }
 .t-div{
   margin: 0%;
@@ -242,6 +247,6 @@ footer{
 @media only screen and (max-width: 720px)
 {
   .t-img{
-    height: 100%;
+    width: 80vw;
   }
 }
