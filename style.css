@@ -1,14 +1,14 @@
 @font-face {
   font-family: sfpro;
-  src: url(font/sfproregular.woff);
+  src: url(font/sfproregular.otf);
 }
 @font-face {
   font-family: sfprobold;
-  src: url(font/sfprosemibold.woff);
+  src: url(font/sfprosemibold.otf);
 }
 @font-face {
   font-family: sfpromed;
-  src: url(font/sfpromed.woff);
+  src: url(font/sfpromed.otf);
 }
 
 body { 
