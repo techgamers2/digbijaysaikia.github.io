@@ -1,14 +1,14 @@
 @font-face {
   font-family: sfpro;
-  src: url(font/sfproregular.otf);
+  src: url(font/sfproregular.woff);
 }
 @font-face {
   font-family: sfprobold;
-  src: url(font/sfprosemibold.otf);
+  src: url(font/sfprosemibold.woff);
 }
 @font-face {
   font-family: sfpromed;
-  src: url(font/sfpromed.otf);
+  src: url(font/sfpromed.woff);
 }
 
 body { 
@@ -27,7 +27,7 @@ body {
   }
 }
 .hello {
-  font-family:  Arial, Helvetica, sans-serif;
+  font-family: "sfprobold", Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: bold;
   font-size: 4.5vw;
