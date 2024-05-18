@@ -1,0 +1,141 @@
+@font-face {
+  font-family: sfpro;
+  src: url(font/sfproregular.otf);
+}
+@font-face {
+  font-family: sfprobold;
+  src: url(font/sfprosemibold.otf);
+}
+@font-face {
+  font-family: sfpromed;
+  src: url(font/sfpromed.otf);
+}
+
+body { 
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25vh;
+  background: #F9F9F9;
+  font-size: 20px;
+  font-family: "sfR", Arial, Helvetica, sans-serif;
+  letter-spacing: 0px;
+}
+@media only screen and (max-width: 430px) {
+  body {
+      margin-top: 20vh;
+  }
+}
+.hello {
+  font-family: "sfprobold", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4.5vw;
+  margin: 0; /* Remove margin */
+}
+@media only screen and (max-width: 1024px) {
+  .hello {
+      font-size: 9vw;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .hello {
+      font-size: 10vw;
+  }
+}
+.uiux {
+  font-family: "sfpro", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2.5vw;
+  color: #5B5B5B;
+  margin: 0;
+}
+@media only screen and (max-width: 1024px) {
+  .uiux {
+      font-size: 4vw;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .uiux {
+      font-size: 7vw;
+  }
+}
+
+.dwnldbtn {
+  display: flex;
+  padding: 16.612px 20.764px;
+  justify-content: center;
+  align-items: center;
+  gap: 8.306px;
+  border-radius: 12px;
+  background-color: #C8E2FF;
+  font-family: "sfpromed";
+  font-size: 1vw;
+  font-weight: 500;
+  text-decoration: none; /* Remove underline from the link */
+  color: #007AFF;
+}
+@media only screen and (max-width: 1024px) {
+  .dwnldbtn {
+      font-size: 2vw;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .dwnldbtn {
+      font-size: 4vw;
+  }
+}
+.divbtn {
+  height: fit-content;
+  width: fit-content;
+  padding: 20px;
+}
+.one-section {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.downloadsvg {
+  width: 1.2vw;
+  height: 1.2vw;
+}
+@media only screen and (max-width: 1024px) {
+  .downloadsvg {
+      width: 2.5vw;
+      height: 2.5vw;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .downloadsvg {
+      width: 5vw;
+      height: 5vw;
+  }
+}
+
+.memoji-container {
+  position: relative;
+}
+
+.quicknav-img {
+  position: absolute;
+  top: -110px; /* Adjust this value as needed */
+  left: 20%;
+  transform: translateX(-50%);
+  z-index: 1; /* Ensure it's above the cartoon image */
+}
+
+.cartoon-img {
+  display: block; /* Ensure the image takes up the full width */
+  margin: auto; /* Center the image */
+}
+.qnav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(35%, -50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 10; /* Ensure it is above other elements */
+}
