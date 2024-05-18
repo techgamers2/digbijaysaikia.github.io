@@ -3,10 +3,6 @@
   src: url(font/sfproregular.otf);
 }
 @font-face {
-  font-family: sfprobold;
-  src: url(font/sfprosemibold.otf);
-}
-@font-face {
   font-family: sfpromed;
   src: url(font/sfpromed.otf);
 }
@@ -27,8 +23,9 @@ body {
   }
 }
 .hello {
-  font-family: "sfprobold", Arial, Helvetica, sans-serif;
+  font-family: "sfpro", Arial, Helvetica, sans-serif;
   text-align: center;
+  font-weight: 600;
   font-size: 4.5vw;
   margin: 0; /* Remove margin */
 }
