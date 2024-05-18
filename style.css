@@ -31,7 +31,7 @@ body {
       font-size: 9vw;
   }
 }
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 480px) {
   .hello {
       font-size: 10vw;
   }
