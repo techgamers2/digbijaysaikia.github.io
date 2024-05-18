@@ -16,7 +16,7 @@
             <div class="memoji-container">
                 <img src="img/quicknav text.svg" class="quicknav-img">
                 <img src="img/memoji.svg" class="cartoon-img">
-                <div class="qnav" id="qnav">
+                <button class="qnav" id="qnav">
                     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                         <!-- Large Circle -->
                         <circle cx="30" cy="30" r="30" fill="#D3D3D3"/>
@@ -29,7 +29,7 @@
                         <!-- Right Small Circle -->
                         <circle class="small-circle" cx="44" cy="30" r="3.46605" fill="#007AFF"/>
                     </svg>
-                </div>
+                </button>
             </div>
             <div>
                 <p class="hello">Hey. Im Digbijay</p>
@@ -43,25 +43,29 @@
             </div> 
         </div> 
     </div>   
-
-    <script>
-        // Get the qnav element
-        const qnav = document.getElementById('qnav');
-
-        // Add click event listener to the qnav element
-        qnav.addEventListener('click', function() {
-            // Get all the small circles inside the qnav
-            const smallCircles = qnav.querySelectorAll('.small-circle');
-
-            // Loop through each small circle and toggle its fill color
-            smallCircles.forEach(circle => {
-                const currentColor = circle.getAttribute('fill');
-                const newColor = (currentColor === '#007AFF') ? '#44464A' : '#007AFF';
-                circle.setAttribute('fill', newColor);
-            });
-        });
-    </script>
-
-
 </body>
+
+<script>
+    // Get the qnav element
+    const qnav = document.getElementById('qnav');
+
+    // Add click event listener to the qnav element
+    qnav.addEventListener('click', function(event) {
+        // Prevent default behavior and stop event propagation
+        event.preventDefault();
+        event.stopPropagation();
+
+        // Get all the small circles inside the qnav
+        const smallCircles = qnav.querySelectorAll('.small-circle');
+
+        // Loop through each small circle and toggle its fill color
+        smallCircles.forEach(circle => {
+            const currentColor = circle.getAttribute('fill');
+            const newColor = (currentColor === '#007AFF') ? '#44464A' : '#007AFF';
+            circle.setAttribute('fill', newColor);
+        });
+    });
+</script>
+
+
 </html>

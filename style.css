@@ -23,7 +23,8 @@ body {
   font-weight: 600;
   text-align: center;
   font-size: 4.5vw;
-  margin: 0; /* Remove margin */
+  margin: 0;
+  pointer-events: none;
 }
 @media only screen and (max-width: 1024px) {
   .hello {
@@ -122,6 +123,7 @@ body {
   display: block; /* Ensure the image takes up the full width */
   margin: auto; /* Center the image */
 }
+/* Style for the qnav button */
 .qnav {
   position: absolute;
   top: 0;
@@ -131,5 +133,16 @@ body {
   height: 60px;
   cursor: pointer;
   border-radius: 50%;
+  border: none; /* Remove the border */
+  background: none; /* Remove any background */
   z-index: 10; /* Ensure it is above other elements */
+}
+
+/* Position the SVG directly on top of the qnav button */
+.qnav svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
