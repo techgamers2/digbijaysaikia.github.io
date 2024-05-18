@@ -2,10 +2,6 @@
   font-family: sfpro;
   src: url(font/sfproregular.otf);
 }
-@font-face {
-  font-family: sfpromed;
-  src: url(font/sfpromed.otf);
-}
 
 body { 
   height: 100%;
@@ -41,6 +37,7 @@ body {
 }
 .uiux {
   font-family: "sfpro", Arial, Helvetica, sans-serif;
+  font-weight: 400;
   text-align: center;
   font-size: 2.5vw;
   color: #5B5B5B;
@@ -65,7 +62,7 @@ body {
   gap: 8.306px;
   border-radius: 12px;
   background-color: #C8E2FF;
-  font-family: "sfpromed";
+  font-family: "sfpro";
   font-size: 1vw;
   font-weight: 500;
   text-decoration: none; /* Remove underline from the link */
