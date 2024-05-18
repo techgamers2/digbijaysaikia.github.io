@@ -8,6 +8,8 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 25vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
   background: #F9F9F9;
   font-size: 20px;
   font-family: "sfR";
@@ -68,6 +70,20 @@ body {
   font-weight: 500;
   text-decoration: none; /* Remove underline from the link */
   color: #007AFF;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for background, box-shadow, and scaling */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Initial box-shadow */
+}
+
+.dwnldbtn:hover {
+  background-color: #A9D6FF; /* Lighter blue background on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+  transform: scale(1.02); /* Slightly scale up the button */
+}
+
+.dwnldbtn:active {
+  background-color: #007AFF; /* Darker blue when the button is clicked */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow on click */
+  transform: scale(0.95); /* Slightly scale down the button */
 }
 @media only screen and (max-width: 1024px) {
   .dwnldbtn {
@@ -138,6 +154,72 @@ body {
   z-index: 10; /* Ensure it is above other elements */
 }
 
+/* Position the qnav and work buttons */
+.qnav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(35%, -50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none; /* Remove the border */
+  background: none; /* Remove any background */
+  z-index: 11; /* Ensure it is above other elements */
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(35%, -50%); /* Adjusted transform */
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none; /* Remove the border */
+  background: none; /* Remove any background */
+  z-index: 10; /* Ensure it is above other elements */
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(35%, -50%); /* Adjusted transform */
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none; /* Remove the border */
+  background: none; /* Remove any background */
+  z-index: 10; /* Ensure it is above other elements */
+}
+
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(35%, -50%); /* Adjusted transform */
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none; /* Remove the border */
+  background: none; /* Remove any background */
+  z-index: 10; /* Ensure it is above other elements */
+}
+
 /* Position the SVG directly on top of the qnav button */
 .qnav svg {
   position: absolute;
@@ -147,28 +229,43 @@ body {
   height: 100%;
 }
 
-.additional-qnav {
+.about, .work, .education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  transition: top 0.3s ease, left 0.3s ease;
-}
-
-.additional-qnav svg {
+  top: 0;
+  right: 0;
+  transform: translate(35%, -50%);
   width: 60px;
   height: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  background: none;
+  z-index: 10;
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
 }
 
-.additional-qnav:nth-child(2) {
-  top: 80px;
+.work img, .about img, .education img {
+  border-radius: 50%;
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
 }
 
-.additional-qnav:nth-child(3) {
-  top: 160px;
+.work:hover img, .about:hover img, .education:hover img {
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+  transform: scale(1.05); /* Scale up on hover */
 }
 
-.additional-qnav:nth-child(4) {
-  left: 80px;
+.about.active {
+  transform: translate(35px, -100px);
 }
 
-.additional-qnav:nth-child(5) {
-  left: 160px;
+.work.active {
+  transform: translate(90px, -50px);
 }
+
+.education.active {
+  transform: translate(70px, 20px);
+}
+
