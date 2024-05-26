@@ -427,18 +427,18 @@ body {
 .project-img {
   width: 100%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .project-info {
-  padding: 15px;
+  padding: 10px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .project-info h3 {
   font-family: "sfpro";
-  font-size: 1.2em;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -478,6 +478,18 @@ body {
     padding-left: 24px;
     padding-right: 24px;
   }
+  .work:hover img, .about:hover img, .education:hover img {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0); /* reset */
+    transform: scale(1.0); /* reset */
+  }
+  .project-details span {
+    font-size: 13px;
+  }
+  .project-info h3 {
+    font-family: "sfpro";
+    font-size: 18px;
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 470px) {
@@ -497,5 +509,11 @@ body {
   .work:hover img, .about:hover img, .education:hover img {
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0); /* reset */
     transform: scale(1.0); /* reset */
+  }
+  .project-details span {
+    font-size: 10px;
+  }
+  .project-info h3 {
+    font-size: 16px;
   }
 }
