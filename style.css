@@ -145,10 +145,21 @@ body {
   transform: translateX(-50%);
   z-index: 1; /* Ensure it's above the cartoon image */
 }
+.memoji-box
+{
+  display: flex;
+  width: 140px;
+  height: 140px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 104.952px;
+  border: 10px solid #D3D3D3;
+}
 
 .cartoon-img {
-  display: block; /* Ensure the image takes up the full width */
-  margin: auto; /* Center the image */
+  width: 83px;
+  height: 111px;
+  flex-shrink: 0;
 }
 /* Style for the qnav button */
 .qnav {
