@@ -15,7 +15,7 @@ body {
   margin-top: 25vh;
   background: #F9F9F9;
   font-size: 20px;
-  font-family: "sfR";
+  font-family: "Red Hat Display", sans-serif;
   letter-spacing: 0px;
 }
 @media only screen and (max-width: 470px) {
@@ -24,8 +24,8 @@ body {
   }
 }
 .hello {
-  font-family: "sfpro";
-  font-weight: 600;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
   text-align: center;
   font-size: 3vw;
   margin: 0;
@@ -42,8 +42,7 @@ body {
   }
 }
 .uiux {
-  font-family: "sfpro";
-  font-weight: 400;
+  font-family: "Red Hat Display", sans-serif;
   text-align: center;
   font-size: 20px;
   color: #5B5B5B;
@@ -61,7 +60,7 @@ body {
 }
 @media only screen and (max-width: 470px) {
   .uiux {
-      font-size: 14px;
+      font-size: 18px;
       margin-left: 16px;
       margin-right: 16px;
   }
@@ -75,7 +74,7 @@ body {
   gap: 8.306px;
   border-radius: 12px;
   background-color: #C8E2FF;
-  font-family: "sfpro";
+  font-family: "Red Hat Display", sans-serif;
   font-size: 1vw;
   font-weight: 500;
   text-decoration: none; /* Remove underline from the link */
@@ -390,11 +389,10 @@ body {
 .projects-section {
   text-align: center;
   padding-top: 5%;
-  background-color: #F9F9F9;
 }
 
 .projects-section .recent {
-  font-family: "sfpro";
+  font-family: "Red Hat Display", sans-serif;
   font-weight: 400;
   text-align: center;
   font-size: 20px;
@@ -406,7 +404,7 @@ body {
 }
 
 .projects-section .myproject {
-  font-family: "sfpro";
+  font-family: "Red Hat Display", sans-serif;
   font-weight: 600;
   text-align: center;
   font-size: 48px;
@@ -438,7 +436,6 @@ body {
 .project-img {
   width: 100%;
   height: auto;
-  border-radius: 20px;
 }
 
 .project-info {
@@ -448,8 +445,9 @@ body {
 }
 
 .project-info h3 {
-  font-family: "sfpro";
+  font-family: "Red Hat Display", sans-serif;
   font-size: 20px;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -461,13 +459,15 @@ body {
 }
 
 .project-details span {
-  font-family: "sfprosemibold";
+  font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
+  font-weight: 600;
   color: #000000;
 }
 
 .year,
 .type {
+  vertical-align: middle;
   padding: 6px 20px;
   justify-content: center;
   border-radius: 20px;
@@ -497,7 +497,7 @@ body {
     font-size: 13px;
   }
   .project-info h3 {
-    font-family: "sfpro";
+    font-family: "Red Hat Display", sans-serif;
     font-size: 18px;
     margin: 0;
   }
@@ -505,10 +505,10 @@ body {
 
 @media only screen and (max-width: 470px) {
   .projects-section .myproject {
-    font-size: 28px;
+    font-size: 32px;
   }
   .projects-section .recent {
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 16px;
     margin-right: 16px;
   }
@@ -525,6 +525,35 @@ body {
     font-size: 10px;
   }
   .project-info h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
+}
+
+
+/* Contact Me Section */
+.contact-me {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.contact-me .recent {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
+  color: #5B5B5B;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.contact-me .myproject {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 48px;
+  margin: 0;
+  margin-top: 0px;
+  pointer-events: none;
 }
