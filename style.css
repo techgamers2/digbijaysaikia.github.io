@@ -7,7 +7,6 @@ body {
   font-size: 20px;
   font-family: "Red Hat Display", sans-serif;
   letter-spacing: 0px;
-  cursor: url('img/custom-cursor.png'), auto;
 }
 .hello {
   font-family: "Red Hat Display", sans-serif;
@@ -16,7 +15,6 @@ body {
   font-size: 58px;
   margin: 0;
   pointer-events: none;
-  cursor: url('img/custom-cursor.png'), auto;
 }
 @media only screen and (max-width: 1024px) {
   .hello {
@@ -54,6 +52,7 @@ body {
 }
 
 .dwnldbtn {
+  cursor: url('img/custom-cursor.png'), auto;
   display: flex;
   padding: 16.612px 20.764px;
   justify-content: center;
