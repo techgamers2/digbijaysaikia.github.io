@@ -1,13 +1,3 @@
-@font-face {
-  font-family: sfpro;
-  src: url(font/sfproregular.otf);
-}
-
-@font-face {
-  font-family: sfprosemibold;
-  src: url(font/sfprosemibold.otf);
-}
-
 body { 
   height: 100%;
   align-items: center;
