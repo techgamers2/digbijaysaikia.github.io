@@ -590,13 +590,26 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 20px;
-  margin-right: 20px; /* Added margin-right to create space on both sides */
+  margin-left: 350px;
+  margin-right: 350px; /* Added margin-right to create space on both sides */
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+}
+@media only screen and (max-width: 470px) {
+  .footer-content{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 .footer-text {
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -629,7 +642,24 @@ body {
 
 .social-title {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px) {
+  .social-title{
+    font-size: 16px;
+}
+.footer-text {
+  font-size: 16px;
+}
+}
+@media only screen and (max-width: 470px) {
+  .social-title{
+    font-size: 16px;
+  }
+  .footer-text {
+    font-size: 16px;
+  }
 }
