@@ -496,8 +496,8 @@ body {
   }
   .projects-container{
     grid-template-columns: repeat(2, minmax(300px, 1fr));
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
     padding: 0;
   }
   .work:hover img, .about:hover img, .education:hover img {
@@ -525,8 +525,8 @@ body {
   }
   .projects-container{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
     padding: 0;
   }
   .work:hover img, .about:hover img, .education:hover img {
@@ -590,14 +590,14 @@ body {
 
 @media only screen and (max-width: 1024px) {
   .footer-content{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 }
 @media only screen and (max-width: 470px) {
   .footer-content{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 }
 
