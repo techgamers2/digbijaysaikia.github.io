@@ -388,6 +388,8 @@ body {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20vh;
+  padding-left: 0;
+  padding-right: 0;
 }
 @media only screen and (max-width: 1024px) {
   .projects-section{
@@ -429,8 +431,8 @@ body {
   align-items: center;
   margin: 0 auto;
   padding-top: 40px;
-  padding-left: 350px;
-  padding-right: 350px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 
@@ -468,7 +470,7 @@ body {
 
 .project-details span {
   font-family: "Red Hat Display", sans-serif;
-  font-size: 16px;
+  font-size: 1.5vh;
   font-weight: 600;
   color: #000000;
 }
@@ -494,8 +496,9 @@ body {
   }
   .projects-container{
     grid-template-columns: repeat(2, minmax(300px, 1fr));
-    padding-left: 24px;
-    padding-right: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
   }
   .work:hover img, .about:hover img, .education:hover img {
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0); /* reset */
@@ -522,8 +525,9 @@ body {
   }
   .projects-container{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding-left: 16px;
-    padding-right: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
   }
   .work:hover img, .about:hover img, .education:hover img {
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0); /* reset */
@@ -580,8 +584,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 350px;
-  margin-right: 350px; /* Added margin-right to create space on both sides */
+  margin-left: 20%;
+  margin-right: 20%; /* Added margin-right to create space on both sides */
 }
 
 @media only screen and (max-width: 1024px) {
