@@ -110,7 +110,7 @@ body {
   align-items: center;
   gap: 30px;
   padding-bottom: 20vh;
-  padding-top: 25vh;
+  padding-top: 30vh;
 }
 @media only screen and (max-width: 1024px) {
   .one-section {
@@ -632,8 +632,4 @@ body {
   font-size: 16px;
   font-weight: 600;
   text-decoration: underline;
-}
-
-.footer-contact {
-  font-size: 1em;
 }
