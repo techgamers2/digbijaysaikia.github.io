@@ -9,7 +9,18 @@
 
 <url>
   <loc>https://digbijaysaikia.in/</loc>
-  <lastmod>2024-06-03T15:33:15+00:00</lastmod>
+  <lastmod>2024-06-03T15:39:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://digbijaysaikia.in/about-me/</loc>
+  <lastmod>2024-06-03T15:39:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://digbijaysaikia.in/resume/Digbijay_saikia_resume.pdf</loc>
+  <lastmod>2024-06-03T15:39:29+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
