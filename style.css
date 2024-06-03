@@ -55,7 +55,7 @@ body {
 }
 
 .dwnldbtn {
-  cursor: url('img/custom-cursor.png'), auto;
+  cursor: pointer;
   display: flex;
   padding: 16.612px 20.764px;
   justify-content: center;
