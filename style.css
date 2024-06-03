@@ -670,7 +670,7 @@ body {
   align-items: center;
   gap: 30px;
   padding-bottom: 10vh;
-  padding-top: 5vh;
+  padding-top: 0;
 }
 
 /* Media queries for responsiveness */
@@ -699,8 +699,8 @@ body {
 }
 
 .about-img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 100%;
 }
 
